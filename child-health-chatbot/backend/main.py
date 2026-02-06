@@ -23,9 +23,45 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Load milestone data
-with open("data/milestones_data.json", "r", encoding="utf-8") as f:
-    MILESTONES_DATA = json.load(f)
+from pydantic import BaseModel, ValidationError, Field
+
+# ... imports ...
+
+# Validation Schemas
+class MilestoneOption(BaseModel):
+    label: str
+    value: str
+
+class AgeRange(BaseModel):
+    min: int
+    max: int
+    typical: int
+
+class MilestoneEntry(BaseModel):
+    milestone_id: str
+    age_range_months: AgeRange
+    domain: str
+    subdomain: str
+    milestone_description: str
+    expected_response_type: str
+    assessment_method: str
+    red_flag: bool
+    who_criteria: bool
+    options: List[MilestoneOption] = Field(..., min_items=1, description="List of options (e.g., Yes/No) is required")
+
+# Load and validate milestone data
+try:
+    with open("data/milestones_data.json", "r", encoding="utf-8") as f:
+        raw_data = json.load(f)
+        # Validate data against schema
+        MILESTONES_DATA = [MilestoneEntry(**item).dict() for item in raw_data]
+        print(f"✅ Successfully validated {len(MILESTONES_DATA)} milestones.")
+except ValidationError as e:
+    print(f"❌ CRITICAL ERROR: Milestone data validation failed!\n{e}")
+    raise SystemExit(1)
+except Exception as e:
+    print(f"❌ CRITICAL ERROR: Failed to load milestone data.\n{e}")
+    raise SystemExit(1)
 
 # Early stimulation activities database
 STIMULATION_ACTIVITIES = {

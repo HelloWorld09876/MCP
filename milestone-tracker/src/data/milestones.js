@@ -1,5 +1,189 @@
-// Sample milestone data for 12 months
+// Comprehensive milestone data for 3, 6, 9, and 12 months
 export const sampleMilestones = [
+    // 3 Months
+    {
+        milestone_id: "M_3M_001",
+        age_range_months: { min: 2, max: 4, typical: 3 },
+        domain: "motor",
+        subdomain: "gross_motor",
+        milestone_description: "Lifts head and chest when lying on stomach",
+        expected_response_type: "yes_no",
+        assessment_method: "Direct observation",
+        red_flag: false,
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
+    },
+    {
+        milestone_id: "M_3M_002",
+        age_range_months: { min: 2, max: 4, typical: 3 },
+        domain: "motor",
+        subdomain: "fine_motor",
+        milestone_description: "Opens and closes hands",
+        expected_response_type: "yes_no",
+        assessment_method: "Direct observation",
+        red_flag: false,
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
+    },
+    {
+        milestone_id: "L_3M_001",
+        age_range_months: { min: 2, max: 4, typical: 3 },
+        domain: "language",
+        subdomain: "expressive_language",
+        milestone_description: "Coos and makes gurgling sounds",
+        expected_response_type: "yes_no",
+        assessment_method: "Parent report or direct observation",
+        red_flag: false,
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
+    },
+    {
+        milestone_id: "S_3M_001",
+        age_range_months: { min: 2, max: 4, typical: 3 },
+        domain: "social",
+        subdomain: "social_emotional",
+        milestone_description: "Smiles at people",
+        expected_response_type: "yes_no",
+        assessment_method: "Parent report or direct observation",
+        red_flag: false,
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
+    },
+    // 6 Months
+    {
+        milestone_id: "M_6M_001",
+        age_range_months: { min: 4, max: 8, typical: 6 },
+        domain: "motor",
+        subdomain: "gross_motor",
+        milestone_description: "Sits without support",
+        expected_response_type: "yes_no",
+        assessment_method: "Direct observation",
+        red_flag: false,
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
+    },
+    {
+        milestone_id: "M_6M_002",
+        age_range_months: { min: 5, max: 9, typical: 6 },
+        domain: "motor",
+        subdomain: "fine_motor",
+        milestone_description: "Transfers objects from one hand to another",
+        expected_response_type: "yes_no",
+        assessment_method: "Direct observation with toy",
+        red_flag: false,
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
+    },
+    {
+        milestone_id: "L_6M_001",
+        age_range_months: { min: 4, max: 8, typical: 6 },
+        domain: "language",
+        subdomain: "receptive_language",
+        milestone_description: "Responds to own name",
+        expected_response_type: "yes_no",
+        assessment_method: "Parent report or direct observation",
+        red_flag: false,
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
+    },
+    {
+        milestone_id: "S_6M_001",
+        age_range_months: { min: 4, max: 8, typical: 6 },
+        domain: "social",
+        subdomain: "social_emotional",
+        milestone_description: "Recognizes familiar faces and begins to know if someone is a stranger",
+        expected_response_type: "yes_no",
+        assessment_method: "Parent report",
+        red_flag: false,
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
+    },
+    // 9 Months
+    {
+        milestone_id: "M_9M_001",
+        age_range_months: { min: 6, max: 11, typical: 9 },
+        domain: "motor",
+        subdomain: "gross_motor",
+        milestone_description: "Crawls on hands and knees",
+        expected_response_type: "yes_no",
+        assessment_method: "Direct observation or parent report",
+        red_flag: false,
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
+    },
+    {
+        milestone_id: "M_9M_002",
+        age_range_months: { min: 7, max: 11, typical: 9 },
+        domain: "motor",
+        subdomain: "fine_motor",
+        milestone_description: "Picks up small objects with thumb and finger",
+        expected_response_type: "yes_no",
+        assessment_method: "Direct observation",
+        red_flag: false,
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
+    },
+    {
+        milestone_id: "L_9M_001",
+        age_range_months: { min: 6, max: 11, typical: 9 },
+        domain: "language",
+        subdomain: "expressive_language",
+        milestone_description: "Babbles with different sounds",
+        expected_response_type: "yes_no",
+        assessment_method: "Parent report or direct observation",
+        red_flag: false,
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
+    },
+    {
+        milestone_id: "S_9M_001",
+        age_range_months: { min: 6, max: 11, typical: 9 },
+        domain: "social",
+        subdomain: "social_emotional",
+        milestone_description: "Shows stranger anxiety",
+        expected_response_type: "yes_no",
+        assessment_method: "Parent report",
+        red_flag: false,
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
+    },
+    // 12 Months
     {
         milestone_id: "M_12M_001",
         age_range_months: { min: 9, max: 15, typical: 12 },
@@ -9,7 +193,11 @@ export const sampleMilestones = [
         expected_response_type: "yes_no",
         assessment_method: "Direct observation",
         red_flag: false,
-        who_criteria: true
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
     },
     {
         milestone_id: "M_12M_002",
@@ -20,7 +208,11 @@ export const sampleMilestones = [
         expected_response_type: "yes_no",
         assessment_method: "Direct observation or parent report",
         red_flag: false,
-        who_criteria: true
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
     },
     {
         milestone_id: "M_12M_003",
@@ -31,7 +223,11 @@ export const sampleMilestones = [
         expected_response_type: "yes_no",
         assessment_method: "Direct observation with small objects",
         red_flag: false,
-        who_criteria: true
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
     },
     {
         milestone_id: "M_12M_004",
@@ -42,7 +238,11 @@ export const sampleMilestones = [
         expected_response_type: "yes_no",
         assessment_method: "Direct observation",
         red_flag: false,
-        who_criteria: true
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
     },
     {
         milestone_id: "L_12M_001",
@@ -53,7 +253,11 @@ export const sampleMilestones = [
         expected_response_type: "yes_no",
         assessment_method: "Parent report or direct observation",
         red_flag: false,
-        who_criteria: true
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
     },
     {
         milestone_id: "L_12M_002",
@@ -64,7 +268,11 @@ export const sampleMilestones = [
         expected_response_type: "yes_no",
         assessment_method: "Parent report",
         red_flag: false,
-        who_criteria: true
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
     },
     {
         milestone_id: "L_12M_003",
@@ -75,7 +283,11 @@ export const sampleMilestones = [
         expected_response_type: "yes_no",
         assessment_method: "Parent report or direct observation",
         red_flag: false,
-        who_criteria: true
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
     },
     {
         milestone_id: "S_12M_001",
@@ -86,7 +298,11 @@ export const sampleMilestones = [
         expected_response_type: "yes_no",
         assessment_method: "Parent report",
         red_flag: false,
-        who_criteria: true
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
     },
     {
         milestone_id: "S_12M_002",
@@ -97,7 +313,11 @@ export const sampleMilestones = [
         expected_response_type: "yes_no",
         assessment_method: "Parent report",
         red_flag: false,
-        who_criteria: true
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
     },
     {
         milestone_id: "S_12M_003",
@@ -108,6 +328,10 @@ export const sampleMilestones = [
         expected_response_type: "yes_no",
         assessment_method: "Parent report or direct observation",
         red_flag: false,
-        who_criteria: true
+        who_criteria: true,
+        options: [
+            { label: "Yes", value: "yes" },
+            { label: "No", value: "no" }
+        ]
     }
 ];
