@@ -1,0 +1,152 @@
+[
+    {
+        "milestone_id": "M_6M_001",
+        "age_range_months": {
+            "min": 4,
+            "max": 8,
+            "typical": 6
+        },
+        "domain": "motor",
+        "subdomain": "gross_motor",
+        "milestone_description": "Sits without support",
+        "expected_response_type": "yes_no",
+        "assessment_method": "Direct observation",
+        "red_flag": false,
+        "who_criteria": true
+    },
+    {
+        "milestone_id": "M_9M_001",
+        "age_range_months": {
+            "min": 6,
+            "max": 11,
+            "typical": 9
+        },
+        "domain": "motor",
+        "subdomain": "gross_motor",
+        "milestone_description": "Crawls on hands and knees",
+        "expected_response_type": "yes_no",
+        "assessment_method": "Direct observation or parent report",
+        "red_flag": false,
+        "who_criteria": true
+    },
+    {
+        "milestone_id": "M_12M_001",
+        "age_range_months": {
+            "min": 9,
+            "max": 15,
+            "typical": 12
+        },
+        "domain": "motor",
+        "subdomain": "gross_motor",
+        "milestone_description": "Stands alone without support",
+        "expected_response_type": "yes_no",
+        "assessment_method": "Direct observation",
+        "red_flag": false,
+        "who_criteria": true
+    },
+    {
+        "milestone_id": "M_12M_002",
+        "age_range_months": {
+            "min": 9,
+            "max": 17,
+            "typical": 12
+        },
+        "domain": "motor",
+        "subdomain": "gross_motor",
+        "milestone_description": "Walks holding onto furniture (cruising)",
+        "expected_response_type": "yes_no",
+        "assessment_method": "Direct observation or parent report",
+        "red_flag": false,
+        "who_criteria": true
+    },
+    {
+        "milestone_id": "M_12M_003",
+        "age_range_months": {
+            "min": 8,
+            "max": 14,
+            "typical": 12
+        },
+        "domain": "motor",
+        "subdomain": "fine_motor",
+        "milestone_description": "Uses pincer grasp (thumb and forefinger) to pick up small objects",
+        "expected_response_type": "yes_no",
+        "assessment_method": "Direct observation with small objects",
+        "red_flag": false,
+        "who_criteria": true
+    },
+    {
+        "milestone_id": "L_12M_001",
+        "age_range_months": {
+            "min": 9,
+            "max": 15,
+            "typical": 12
+        },
+        "domain": "language",
+        "subdomain": "receptive_language",
+        "milestone_description": "Understands simple commands like 'come here' or 'give me'",
+        "expected_response_type": "yes_no",
+        "assessment_method": "Parent report or direct observation",
+        "red_flag": false,
+        "who_criteria": true
+    },
+    {
+        "milestone_id": "L_12M_002",
+        "age_range_months": {
+            "min": 10,
+            "max": 18,
+            "typical": 12
+        },
+        "domain": "language",
+        "subdomain": "expressive_language",
+        "milestone_description": "Says 'mama' and 'dada' and uses them correctly",
+        "expected_response_type": "yes_no",
+        "assessment_method": "Parent report",
+        "red_flag": false,
+        "who_criteria": true
+    },
+    {
+        "milestone_id": "L_24M_003",
+        "age_range_months": {
+            "min": 18,
+            "max": 30,
+            "typical": 24
+        },
+        "domain": "language",
+        "subdomain": "expressive_language",
+        "milestone_description": "Uses at least 50 words",
+        "expected_response_type": "yes_no",
+        "assessment_method": "Parent report",
+        "red_flag": true,
+        "who_criteria": true
+    },
+    {
+        "milestone_id": "L_24M_004",
+        "age_range_months": {
+            "min": 18,
+            "max": 30,
+            "typical": 24
+        },
+        "domain": "language",
+        "subdomain": "expressive_language",
+        "milestone_description": "Combines two words together (e.g., 'more milk', 'daddy go')",
+        "expected_response_type": "yes_no",
+        "assessment_method": "Parent report or direct observation",
+        "red_flag": true,
+        "who_criteria": true
+    },
+    {
+        "milestone_id": "S_12M_001",
+        "age_range_months": {
+            "min": 9,
+            "max": 15,
+            "typical": 12
+        },
+        "domain": "social",
+        "subdomain": "social_emotional",
+        "milestone_description": "Shows fear or anxiety with strangers (stranger anxiety)",
+        "expected_response_type": "yes_no",
+        "assessment_method": "Parent report",
+        "red_flag": false,
+        "who_criteria": true
+    }
+]

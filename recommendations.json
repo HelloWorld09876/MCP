@@ -1,0 +1,53 @@
+{
+    "motor": {
+        "gross_motor": [
+            "Encourage tummy time for 10-15 minutes daily",
+            "Place colorful toys just out of reach to encourage crawling",
+            "Practice standing with support using furniture",
+            "Play ball games - rolling, throwing, kicking",
+            "Create safe spaces for climbing and exploring",
+            "Dance together to music with different rhythms",
+            "Walk on different surfaces (grass, sand, carpet)"
+        ],
+        "fine_motor": [
+            "Provide blocks or cups for stacking practice",
+            "Offer finger foods to develop pincer grasp",
+            "Give crayons and paper for scribbling",
+            "Play with shape sorters and simple puzzles",
+            "Practice opening and closing containers",
+            "String large beads together",
+            "Use playdough for squeezing and molding"
+        ]
+    },
+    "language": {
+        "receptive_language": [
+            "Read picture books together daily",
+            "Name objects and people around them consistently",
+            "Play simple games like 'Where is your nose?'",
+            "Use simple, clear commands during daily routines",
+            "Sing songs with actions and gestures",
+            "Point to and name body parts during bath time",
+            "Follow simple instructions during play"
+        ],
+        "expressive_language": [
+            "Respond enthusiastically to their babbling",
+            "Repeat and expand on their words",
+            "Ask simple questions and wait for responses",
+            "Narrate your daily activities as you do them",
+            "Encourage imitation of sounds and words",
+            "Use simple sentences when talking to them",
+            "Sing nursery rhymes and encourage participation"
+        ]
+    },
+    "social": {
+        "social_emotional": [
+            "Play peek-a-boo and other interactive games",
+            "Arrange regular playtime with other children",
+            "Respond warmly and consistently to their emotions",
+            "Establish predictable daily routines",
+            "Encourage pretend play with dolls or toys",
+            "Practice sharing and taking turns",
+            "Show affection through hugs and smiles"
+        ]
+    }
+}

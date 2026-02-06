@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MCP Developmental Milestones Schema",
+  "description": "Schema for capturing developmental milestones for children aged 0-3 years across motor, language, and social domains",
+  "type": "object",
+  "properties": {
+    "child_id": {
+      "type": "string",
+      "description": "Unique identifier for the child"
+    },
+    "assessment_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of milestone assessment"
+    },
+    "age_months": {
+      "type": "integer",
+      "description": "Child's age in months at assessment",
+      "minimum": 0,
+      "maximum": 36
+    },
+    "milestones": {
+      "type": "array",
+      "description": "Array of developmental milestones",
+      "items": {
+        "type": "object",
+        "properties": {
+          "milestone_id": {
+            "type": "string",
+            "description": "Unique identifier for the milestone"
+          },
+          "age_range_months": {
+            "type": "object",
+            "properties": {
+              "min": {
+                "type": "integer",
+                "description": "Minimum age in months"
+              },
+              "max": {
+                "type": "integer",
+                "description": "Maximum age in months"
+              },
+              "typical": {
+                "type": "integer",
+                "description": "Typical age in months when milestone is achieved"
+              }
+            },
+            "required": ["min", "max", "typical"]
+          },
+          "domain": {
+            "type": "string",
+            "enum": ["motor", "language", "social"],
+            "description": "Developmental domain"
+          },
+          "subdomain": {
+            "type": "string",
+            "description": "Specific subdomain (e.g., gross_motor, fine_motor, receptive_language, expressive_language, social_emotional)"
+          },
+          "milestone_description": {
+            "type": "string",
+            "description": "Detailed description of the milestone"
+          },
+          "expected_response_type": {
+            "type": "string",
+            "enum": ["yes_no", "scale_1_5", "text", "multiple_choice"],
+            "description": "Type of response expected for assessment"
+          },
+          "response_options": {
+            "type": "array",
+            "description": "Available response options (for multiple_choice type)",
+            "items": {
+              "type": "string"
+            }
+          },
+          "assessment_method": {
+            "type": "string",
+            "description": "How to assess this milestone (observation, parent report, direct testing)"
+          },
+          "red_flag": {
+            "type": "boolean",
+            "description": "Whether absence of this milestone is a red flag requiring immediate attention"
+          },
+          "who_criteria": {
+            "type": "boolean",
+            "description": "Whether this milestone is part of WHO developmental criteria"
+          }
+        },
+        "required": ["milestone_id", "age_range_months", "domain", "milestone_description", "expected_response_type"]
+      }
+    }
+  },
+  "required": ["child_id", "assessment_date", "age_months", "milestones"]
+}

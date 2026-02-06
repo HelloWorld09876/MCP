@@ -1,0 +1,490 @@
+{
+    "assessments": [
+        {
+            "child_id": "CHILD_001",
+            "assessment_date": "2026-02-05",
+            "age_months": 6,
+            "milestones": [
+                {
+                    "milestone_id": "M_6M_001",
+                    "age_range_months": {
+                        "min": 4,
+                        "max": 8,
+                        "typical": 6
+                    },
+                    "domain": "motor",
+                    "subdomain": "gross_motor",
+                    "milestone_description": "Sits without support",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "M_6M_002",
+                    "age_range_months": {
+                        "min": 5,
+                        "max": 9,
+                        "typical": 6
+                    },
+                    "domain": "motor",
+                    "subdomain": "fine_motor",
+                    "milestone_description": "Transfers objects from one hand to another",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Direct observation with toy",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "M_6M_003",
+                    "age_range_months": {
+                        "min": 4,
+                        "max": 8,
+                        "typical": 6
+                    },
+                    "domain": "motor",
+                    "subdomain": "gross_motor",
+                    "milestone_description": "Rolls over in both directions",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report or direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "L_6M_001",
+                    "age_range_months": {
+                        "min": 4,
+                        "max": 8,
+                        "typical": 6
+                    },
+                    "domain": "language",
+                    "subdomain": "receptive_language",
+                    "milestone_description": "Responds to own name",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report or direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "L_6M_002",
+                    "age_range_months": {
+                        "min": 4,
+                        "max": 8,
+                        "typical": 6
+                    },
+                    "domain": "language",
+                    "subdomain": "expressive_language",
+                    "milestone_description": "Babbles with consonant sounds (ba, da, ga)",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report or direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "S_6M_001",
+                    "age_range_months": {
+                        "min": 4,
+                        "max": 8,
+                        "typical": 6
+                    },
+                    "domain": "social",
+                    "subdomain": "social_emotional",
+                    "milestone_description": "Recognizes familiar faces and begins to know if someone is a stranger",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "S_6M_002",
+                    "age_range_months": {
+                        "min": 4,
+                        "max": 8,
+                        "typical": 6
+                    },
+                    "domain": "social",
+                    "subdomain": "social_emotional",
+                    "milestone_description": "Likes to play with others, especially parents",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report",
+                    "red_flag": false,
+                    "who_criteria": true
+                }
+            ]
+        },
+        {
+            "child_id": "CHILD_001",
+            "assessment_date": "2026-08-05",
+            "age_months": 12,
+            "milestones": [
+                {
+                    "milestone_id": "M_12M_001",
+                    "age_range_months": {
+                        "min": 9,
+                        "max": 15,
+                        "typical": 12
+                    },
+                    "domain": "motor",
+                    "subdomain": "gross_motor",
+                    "milestone_description": "Stands alone without support",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "M_12M_002",
+                    "age_range_months": {
+                        "min": 9,
+                        "max": 17,
+                        "typical": 12
+                    },
+                    "domain": "motor",
+                    "subdomain": "gross_motor",
+                    "milestone_description": "Walks holding onto furniture (cruising)",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Direct observation or parent report",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "M_12M_003",
+                    "age_range_months": {
+                        "min": 8,
+                        "max": 14,
+                        "typical": 12
+                    },
+                    "domain": "motor",
+                    "subdomain": "fine_motor",
+                    "milestone_description": "Uses pincer grasp (thumb and forefinger) to pick up small objects",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Direct observation with small objects",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "M_12M_004",
+                    "age_range_months": {
+                        "min": 10,
+                        "max": 16,
+                        "typical": 12
+                    },
+                    "domain": "motor",
+                    "subdomain": "fine_motor",
+                    "milestone_description": "Puts objects into a container and takes them out",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "L_12M_001",
+                    "age_range_months": {
+                        "min": 9,
+                        "max": 15,
+                        "typical": 12
+                    },
+                    "domain": "language",
+                    "subdomain": "receptive_language",
+                    "milestone_description": "Understands simple commands like 'come here' or 'give me'",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report or direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "L_12M_002",
+                    "age_range_months": {
+                        "min": 10,
+                        "max": 18,
+                        "typical": 12
+                    },
+                    "domain": "language",
+                    "subdomain": "expressive_language",
+                    "milestone_description": "Says 'mama' and 'dada' and uses them correctly",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "L_12M_003",
+                    "age_range_months": {
+                        "min": 9,
+                        "max": 14,
+                        "typical": 12
+                    },
+                    "domain": "language",
+                    "subdomain": "expressive_language",
+                    "milestone_description": "Uses simple gestures like shaking head 'no' or waving 'bye-bye'",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report or direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "S_12M_001",
+                    "age_range_months": {
+                        "min": 9,
+                        "max": 15,
+                        "typical": 12
+                    },
+                    "domain": "social",
+                    "subdomain": "social_emotional",
+                    "milestone_description": "Shows fear or anxiety with strangers (stranger anxiety)",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "S_12M_002",
+                    "age_range_months": {
+                        "min": 8,
+                        "max": 14,
+                        "typical": 12
+                    },
+                    "domain": "social",
+                    "subdomain": "social_emotional",
+                    "milestone_description": "Shows preference for certain people and toys",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "S_12M_003",
+                    "age_range_months": {
+                        "min": 9,
+                        "max": 15,
+                        "typical": 12
+                    },
+                    "domain": "social",
+                    "subdomain": "social_emotional",
+                    "milestone_description": "Repeats sounds or actions to get attention",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report or direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                }
+            ]
+        },
+        {
+            "child_id": "CHILD_001",
+            "assessment_date": "2027-02-05",
+            "age_months": 24,
+            "milestones": [
+                {
+                    "milestone_id": "M_24M_001",
+                    "age_range_months": {
+                        "min": 18,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "motor",
+                    "subdomain": "gross_motor",
+                    "milestone_description": "Kicks a ball forward",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "M_24M_002",
+                    "age_range_months": {
+                        "min": 18,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "motor",
+                    "subdomain": "gross_motor",
+                    "milestone_description": "Runs with coordination",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Direct observation or parent report",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "M_24M_003",
+                    "age_range_months": {
+                        "min": 20,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "motor",
+                    "subdomain": "gross_motor",
+                    "milestone_description": "Walks up and down stairs holding on to support",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report or direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "M_24M_004",
+                    "age_range_months": {
+                        "min": 18,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "motor",
+                    "subdomain": "fine_motor",
+                    "milestone_description": "Builds a tower of 4 or more blocks",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Direct observation with blocks",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "M_24M_005",
+                    "age_range_months": {
+                        "min": 18,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "motor",
+                    "subdomain": "fine_motor",
+                    "milestone_description": "Scribbles spontaneously with crayon or pencil",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Direct observation or parent report",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "L_24M_001",
+                    "age_range_months": {
+                        "min": 18,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "language",
+                    "subdomain": "receptive_language",
+                    "milestone_description": "Points to objects or pictures when named",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "L_24M_002",
+                    "age_range_months": {
+                        "min": 18,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "language",
+                    "subdomain": "receptive_language",
+                    "milestone_description": "Follows two-step instructions (e.g., 'Pick up the toy and give it to me')",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Direct observation or parent report",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "L_24M_003",
+                    "age_range_months": {
+                        "min": 18,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "language",
+                    "subdomain": "expressive_language",
+                    "milestone_description": "Uses at least 50 words",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report",
+                    "red_flag": true,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "L_24M_004",
+                    "age_range_months": {
+                        "min": 18,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "language",
+                    "subdomain": "expressive_language",
+                    "milestone_description": "Combines two words together (e.g., 'more milk', 'daddy go')",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report or direct observation",
+                    "red_flag": true,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "L_24M_005",
+                    "age_range_months": {
+                        "min": 20,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "language",
+                    "subdomain": "expressive_language",
+                    "milestone_description": "Names familiar objects and people",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report or direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "S_24M_001",
+                    "age_range_months": {
+                        "min": 18,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "social",
+                    "subdomain": "social_emotional",
+                    "milestone_description": "Plays alongside other children (parallel play)",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report or direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "S_24M_002",
+                    "age_range_months": {
+                        "min": 18,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "social",
+                    "subdomain": "social_emotional",
+                    "milestone_description": "Shows defiant behavior (doing what told not to do)",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "S_24M_003",
+                    "age_range_months": {
+                        "min": 18,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "social",
+                    "subdomain": "social_emotional",
+                    "milestone_description": "Imitates behavior of others, especially adults and older children",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report or direct observation",
+                    "red_flag": false,
+                    "who_criteria": true
+                },
+                {
+                    "milestone_id": "S_24M_004",
+                    "age_range_months": {
+                        "min": 18,
+                        "max": 30,
+                        "typical": 24
+                    },
+                    "domain": "social",
+                    "subdomain": "social_emotional",
+                    "milestone_description": "Gets excited when with other children",
+                    "expected_response_type": "yes_no",
+                    "assessment_method": "Parent report",
+                    "red_flag": false,
+                    "who_criteria": true
+                }
+            ]
+        }
+    ]
+}
