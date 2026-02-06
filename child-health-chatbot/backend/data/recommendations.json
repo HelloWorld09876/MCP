@@ -1,0 +1,107 @@
+[
+    {
+        "id": "rec_motor_0_6",
+        "domain": "motor",
+        "min_age": 0,
+        "max_age": 6,
+        "text": "Tummy time is essential! Place your baby on their tummy for short periods while awake to strengthen neck and shoulder muscles."
+    },
+    {
+        "id": "rec_motor_6_12_sit",
+        "domain": "motor",
+        "min_age": 6,
+        "max_age": 12,
+        "text": "Encourage sitting by placing toys just out of reach. Use pillows for support if needed, but let them practice balancing."
+    },
+    {
+        "id": "rec_motor_6_12_crawl",
+        "domain": "motor",
+        "min_age": 6,
+        "max_age": 12,
+        "text": "Create a safe, open space for crawling. Place interesting objects a few feet away to motivate them to move forward."
+    },
+    {
+        "id": "rec_motor_12_24_walk",
+        "domain": "motor",
+        "min_age": 12,
+        "max_age": 24,
+        "text": "To encourage walking, let your child hold onto sturdy furniture (cruising) or hold their hands while they take steps. Avoid baby walkers."
+    },
+    {
+        "id": "rec_motor_12_24_fine",
+        "domain": "motor",
+        "min_age": 12,
+        "max_age": 24,
+        "text": "Provide stacking blocks, large puzzles, and scribbling materials to refine fine motor control and hand-eye coordination."
+    },
+    {
+        "id": "rec_lang_0_6_babble",
+        "domain": "language",
+        "min_age": 0,
+        "max_age": 6,
+        "text": "Talk to your baby constantly! Narrate your day, respond to their coos and gurgles, and make eye contact while speaking."
+    },
+    {
+        "id": "rec_lang_6_12_first",
+        "domain": "language",
+        "min_age": 6,
+        "max_age": 12,
+        "text": "Read simple picture books together. Point to objects and name them clearly. Encourage them to imitate sounds like 'ma-ma' or 'da-da'."
+    },
+    {
+        "id": "rec_lang_12_24_words",
+        "domain": "language",
+        "min_age": 12,
+        "max_age": 24,
+        "text": "Expand on your child's words. If they say 'car', you say 'Yes, a fast red car!'. This helps build their vocabulary."
+    },
+    {
+        "id": "rec_lang_12_24_follow",
+        "domain": "language",
+        "min_age": 12,
+        "max_age": 24,
+        "text": "Give simple one-step commands like 'Pick up the ball' to practice receptive language skills. Praise them when they follow through."
+    },
+    {
+        "id": "rec_social_0_6_smile",
+        "domain": "social",
+        "min_age": 0,
+        "max_age": 6,
+        "text": "Smile back at your baby! Mimic their facial expressions and sounds to build a strong emotional bond and social awareness."
+    },
+    {
+        "id": "rec_social_6_12_bonds",
+        "domain": "social",
+        "min_age": 6,
+        "max_age": 12,
+        "text": "Play peek-a-boo and hide-and-seek with toys. This teaches object permanence and social interaction turns."
+    },
+    {
+        "id": "rec_social_12_24_play",
+        "domain": "social",
+        "min_age": 12,
+        "max_age": 24,
+        "text": "Arrage playdates with other children. Even if they engage in 'parallel play' (playing side-by-side), it's a crucial social step."
+    },
+    {
+        "id": "rec_general_0_12",
+        "domain": "general",
+        "min_age": 0,
+        "max_age": 12,
+        "text": "Ensure your baby gets plenty of sleep and a balanced diet (breastmilk/formula and solids as appropriate) for healthy growth."
+    },
+    {
+        "id": "rec_general_12_24",
+        "domain": "general",
+        "min_age": 12,
+        "max_age": 24,
+        "text": "Create a routine! Consistent meal and bedtimes provide a sense of security and help regulate your toddler's behavior."
+    },
+    {
+        "id": "rec_fallback",
+        "domain": "general",
+        "min_age": 0,
+        "max_age": 60,
+        "text": "Every child develops at their own pace. If you have specific concerns, please consult a pediatrician. Keep engaging with your child through play and talk!"
+    }
+]
