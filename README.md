@@ -52,7 +52,7 @@ const API_BASE_URL = 'http://10.30.66.193:8000'; // Success! You've already set 
 ```bash
 cd c:\Users\adity\random\milestone-tracker
 npm install
-npx expo start
+npm run dev
 ```
 
 ### 3. Open on Device
