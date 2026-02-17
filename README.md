@@ -2,73 +2,67 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-Expo-61DAFB?logo=react&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.95-009688?logo=fastapi&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## Executive Summary
+## Section 1: Project Overview
 
-The **IIPH Child Health Assessment Toolkit** is an integrated digital health platform designed to track and support child development from 0 to 24 months. By combining AI-driven advice with secure video monitoring, the platform empowers parents and caregivers with actionable insights into their child's motor, language, and social growth.
+The **IIPH Child Health Assessment Toolkit** is a comprehensive 3-part ecosystem designed to support child development monitoring:
 
-## Key Features
+- **Backend Brain (FastAPI) 🧠**: The core intelligence that handles AI logic, data validation, and secure processing.
+- **Mobile Tracker (React Native) 📱**: A dedicated mobile application for parents to track developmental milestones from 0-24 months.
+- **Chatbot Interface (React) �**: An intuitive web portal for parents to ask questions and receive AI-driven advice on child development.
 
-- **Smart Chatbot 🤖**
-  - **Context-Aware Advice:** Delivers tailored guidance for Motor, Language, and Social development.
-  - **Intent Detection:** Uses advanced keyword intent detection to understand user queries accurately.
+## Section 2: 🚀 The 'One-Click' Cloud Setup (Crucial Section)
 
-- **Milestone Tracker 📅**
-  - **Age-Specific Assessments:** Interactive assessment cards for key developmental stages (3, 6, 9, and 12 months).
-  - **Track Progress:** Easily monitor growth and identify potential delays early.
+This project is optimized for **GitHub Codespaces**, allowing you to run the entire stack without local installation.
 
-- **Privacy-First 🔒**
-  - **Secure Data:** Automated video de-identification ensures child privacy.
-  - **Hashing:** Utilizes Salted SHA-256 Hashing to protect sensitive identifiers.
+### Step 1: Start Codespace
+1. Click on the **Code** button at the top right of the repository.
+2. Select the **Codespaces** tab.
+3. Click **Create codespace on main**.
 
-- **Fail-Safe Backend 🛡️**
-  - **Data Integrity:** Implements strict Pydantic schema validation to ensure all data meets rigorous standards.
-  - **Robust Architecture:** Designed to handle errors gracefully and maintain system stability.
+Once the Codespace is ready, open three separate terminals to run each component.
 
-## 🚀 Quick Start
-
-### Run on GitHub Codespaces (No Install Required)
-
-The easiest way to explore the toolkit is by using GitHub Codespaces.
-
-1. Click the **Context Menu** on the top right of this repository.
-2. Select **Code** > **Create Codespace**.
-
-Once your Codespace is ready, open two terminals to run the backend and frontend services.
-
-#### Terminal 1 (Backend)
-
-Run the backend FastAPI server:
+### Step 2: Terminal 1 - The Backend (Port 8000)
+Run the following command to start the backend server:
 
 ```bash
-cd child-health-chatbot/backend
-pip install -r requirements.txt
-# Ensure dependencies like pandas, python-dotenv, fastapi, uvicorn, python-multipart are installed
-uvicorn main:app --reload --port 8000
+cd child-health-chatbot/backend && pip install -r requirements.txt && uvicorn main:app --reload --port 8000
 ```
 
-#### Terminal 2 (Frontend)
-
-Run the React Native Expo app:
+### Step 3: Terminal 2 - The Mobile App (Port 8081)
+Run the following command to launch the mobile tracker:
 
 ```bash
-cd milestone-tracker
-npm install
-npx expo install react-dom react-native-web @expo/metro-runtime
-npm run web
+cd milestone-tracker && npm install && npx expo install react-dom react-native-web @expo/metro-runtime && npm run web
 ```
 
-### Access the App
+### Step 4: Terminal 3 - The Chatbot Web Interface (Port 3000)
+Run the following command to start the chatbot web interface:
 
-1. In the Codespace, navigate to the **Ports** tab.
-2. Locate **Port 8081** (Frontend).
-3. Click the **Globe Icon** 🌐 to open the application in your browser.
+```bash
+cd child-health-chatbot/frontend && npm install && npm run dev
+```
+*(Note: If prompted to use a different port, accept with 'y')*
 
-## Tech Stack
+## Section 3: 🔓 How to View the Apps
 
-- **Language:** Python 3.10
-- **Backend:** FastAPI
-- **Frontend:** React Native (Expo)
-- **Data Processing:** Pandas
+To access the running applications:
+
+1. Go to the **PORTS** tab in your VS Code interface (usually at the bottom).
+2. Right-click on **Port 8000**, **Port 8081**, and **Port 3000**.
+3. Set **Port Visibility** to **Public** for all three.
+4. Click the **Globe Icon** 🌐 next to:
+   - **Port 8081** to open the **Mobile App**.
+   - **Port 3000** to open the **Chatbot Interface**.
+
+## Section 4: Architecture & Tech Stack
+
+This project is built with a modern, scalable tech stack:
+
+- **Backend:** Python 3.10, FastAPI, Pydantic (Data Validation), Uvicorn.
+- **Mobile:** React Native, Expo, Node.js.
+- **Web:** React.js, NPM.
+- **Security:** Video Hashing (SHA-256) for ensuring patient privacy.
