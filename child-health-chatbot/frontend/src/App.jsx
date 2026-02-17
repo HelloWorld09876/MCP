@@ -3,7 +3,9 @@ import axios from 'axios';
 import ChatMessage from './components/ChatMessage';
 import ChatInput from './components/ChatInput';
 
-const API_URL = 'http://localhost:8000';
+// Option B — environment variable fallback (recommended for Codespaces)
+// Set REACT_APP_API_URL to your Codespaces forwarded URL, e.g. in .env or Codespaces env settings
+const API_URL = process.env.REACT_APP_API_URL || 'https://<YOUR-CODESPACE-URL>';
 
 function App() {
     const [messages, setMessages] = useState([

@@ -10,14 +10,7 @@ app = FastAPI(title="Child Health Chatbot API")
 # CORS middleware for React frontend and React Native app
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000", 
-        "http://localhost:5173",
-        "http://localhost:19000",  # Expo default
-        "http://localhost:19006",  # Expo web
-        "exp://localhost:19000",   # Expo app
-        "*"  # Allow all origins for mobile development
-    ],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
